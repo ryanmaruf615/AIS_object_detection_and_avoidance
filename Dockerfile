@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y git
 RUN source /opt/ros/humble/setup.bash && \
     mkdir -p /turtlebot3_ws/src && \
     cd /turtlebot3_ws/src && \
-    git clone https://github.com/vinay06vinay/Turtlebot3-Obstacle-Avoidance-ROS2.git
+    git clone https://github.com/ryanmaruf615/AIS_object_detection_and_avoidance.git
 
 # Set environment variables
 RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
