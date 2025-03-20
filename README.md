@@ -1,8 +1,9 @@
 ## Introduction
-Obstacle avoidance is a critical aspect of autonomous navigation systems. This project leverages **ROS 2 (Robot Operating System 2)** and the **TurtleBot3 platform** to implement and enhance an obstacle avoidance algorithm using the **Navigation 2 (Nav2) stack**.
+Obstacle avoidance is a critical aspect of autonomous navigation systems. This project leverages ROS 2 (Robot Operating System 2) and the TurtleBot3 platform to implement and enhance an obstacle avoidance algorithm using the Navigation 2 (Nav2) stack. The system is designed to detect and avoid obstacles in real-time while ensuring efficient path planning and collision-free movement. **Navigation 2 (Nav2) stack**.
 
 ## Objective
-The primary goal is to enable the TurtleBot3 to navigate autonomously in a dynamic environment while avoiding obstacles in real time. This project is part of the **Autonomous Systems and Robotics course at Frankfurt University of Applied Sciences**.
+The primary goal is to enable the TurtleBot3 to navigate autonomously in a dynamic environment while avoiding obstacles in real time. This project is part of the Autonomous Systems and Robotics course at Frankfurt University of Applied Sciences.
+**Autonomous Systems and Robotics course at Frankfurt University of Applied Sciences**.
 
 ## System Architecture
 
@@ -51,22 +52,14 @@ ros2_ws/
    colcon build
    source install/setup.bash
 
-Launching the System
+## Launching the System
 1. Launch TurtleBot3 simulation:
     ```bash
     ros2 launch nav2_bringup tb3_simulation_launch.py
 2. Run the Obstacle Avoidance Node:
     ```bash
     ros2 run obstacle_avoidance avoid_obstacles    
-Results
-
-Real-time obstacle detection and avoidance.
-
-Smooth navigation through dynamic environments.
-
-Visualization of navigation path in Rviz2.
-
-Future Improvements
+## Future Improvements
 
 Implement advanced path-planning algorithms.
 
@@ -74,14 +67,20 @@ Integrate machine learning-based object recognition.
 
 Improve performance in outdoor environments.
 
-Contributors
+Optimize navigation efficiency using SLAM-based localization.
+
+Deploy and test the algorithm on a real-world TurtleBot3 robot.
+
+
+## Contributors
 
 Md Maruf Hossain
 Moushumi Parvin Tonny
 
-References
+## References
 
 ROS 2 Documentation
 
-Nav2 Stack 
-   
+Nav2 Stack Documentation
+
+Various academic papers on autonomous navigation and obstacle avoidance
