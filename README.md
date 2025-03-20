@@ -4,6 +4,8 @@ Obstacle avoidance is a critical aspect of autonomous navigation systems. This p
 ## Objective
 The primary goal is to enable the TurtleBot3 to navigate autonomously in a dynamic environment while avoiding obstacles in real time. This project is part of the Autonomous Systems and Robotics course at Frankfurt University of Applied Sciences.
 **Autonomous Systems and Robotics course at Frankfurt University of Applied Sciences**.
+## Github Link
+https://github.com/ryanmaruf615/AIS_object_detection_and_avoidance
 
 ## System Architecture
 
